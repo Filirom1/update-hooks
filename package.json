@@ -1,0 +1,34 @@
+{
+  "name": "update-hooks",
+  "version": "0.1.0",
+  "description": "A webserver that watch project versions and trigger webhooks on updates",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Filirom1/update-hooks.git"
+  },
+  "keywords": [
+    "uscan",
+    "anitya",
+    "watch",
+    "version",
+    "webhook",
+    "hook"
+  ],
+  "author": "Filirom1 <Filirom1@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Filirom1/update-hooks/issues"
+  },
+  "homepage": "https://github.com/Filirom1/update-hooks",
+  "dependencies": {
+    "express": "^4.12.3",
+    "fetch-versions": "^0.1.1",
+    "nconf": "^0.7.1",
+    "node-schedule": "^0.2.6",
+    "semver": "^4.3.3"
+  }
+}
